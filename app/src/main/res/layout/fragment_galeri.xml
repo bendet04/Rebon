@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/img_gua_sunyaragi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gua_sunyaragi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#8b000000"
+                android:padding="15dp"
+                android:text="Gua Sunyaragi "
+                android:textColor="#FFF" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/img_keraton_kasepuhan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/keraton_kasepuhan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#8b000000"
+                android:padding="15dp"
+                android:text="Keraton Kasepuhan "
+                android:textColor="#FFF" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

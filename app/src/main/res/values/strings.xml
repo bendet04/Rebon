@@ -1,0 +1,87 @@
+<resources>
+    <!--Nama APP-->
+    <string name="app_name">Citros</string>
+
+    <!--Title ctivity toolbar-->
+    <string name="activity_titile_cari_tiket">Cari Tiket</string>
+
+    <!--Tab Button-->
+    <string name="tab_tiket">Tiket</string>
+    <string name="tab_pesanan">Pesanan</string>
+    <string name="tab_galeri">Galeri</string>
+    <string name="tab_user">User</string>
+
+    <!--Text Button-->
+    <string name="btn_cari_tiket">Cari Tiket</string>
+    <string name="btn_pesan_tiket">Pesan Tiket</string>
+    <string name="btn_next">Next</string>
+
+    <!--Google MAP API key-->
+    <string name="google_maps_key">AIzaSyCjdbTG-PTD1-kA9m7Z7ObR5Ew89TuXSX0</string>
+
+    <!-- Cari Tiket -->
+    <string name="et_keberangkatan">Pool Bhinneka Cirebon</string>
+    <string name="et_keberangkatan_hint">Keberangkatan</string>
+    <string name="et_tgl_keberangkatan">00-00-0000</string>
+    <string name="et_tgl_keberangkatan_hint">Tgl Keberangkatan</string>
+    <string name="et_jam_keberangkatan">00:00</string>
+    <string name="et_jam_keberangkatan_hint">Jam Keberangkatan</string>
+    <string name="et_jumlah_penumpang">1 Orang</string>
+    <string name="et_jumlah_penumpang_hint">Jumlah Penumpang</string>
+    <string name="bottom_sheet_pilih_keberangkatan">Pilih Lokasi Keberangkatan</string>
+
+    <!-- Pilih Kursi -->
+    <string name="total_kursi">0</string>
+    <string name="tv_total_kursi">kursi dipilih</string>
+    <string name="total_harga">Rp.0</string>
+    <string name="tv_total_harga">total</string>
+
+    <string name="date_format">yyyy-MM-dd</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+
+    <!-- Loading Fragment-->
+    <string name="progressActivityErrorButton">Try Again</string>
+    <string name="progressActivityEmptyTitlePlaceholder">Nothing Here</string>
+    <string name="progressActivityEmptyContentPlaceholder">We couldn\'t find anything. Tap the button to take your first image</string>
+    <string name="progressActivityErrorTitlePlaceholder">No Connection</string>
+    <string name="progressActivityErrorContentPlaceholder">We could not establish a connection with our servers. Please try again when you are connected to the internet.</string>
+
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_pesanan">Pesanan</string>
+    <string name="title_about">About</string>
+
+    <string-array name="custom_weekdays">
+        <item>Min</item>
+        <item>Sen</item>
+        <item>Sel</item>
+        <item>Rab</item>
+        <item>Kam</item>
+        <item>Jum</item>
+        <item>Sab</item>
+    </string-array>
+
+    <string-array name="custom_months">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Augustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+
+</resources>

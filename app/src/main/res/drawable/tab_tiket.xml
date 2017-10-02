@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_ticket_green" android:state_selected="true" />
+    <item android:drawable="@drawable/ic_ticket_gray" android:state_selected="false" />
+</selector>

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Informasi Pemesan"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_input_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:hint="Nama"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_helper_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nama tidak boleh kosong"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/et_input_handphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:hint="Handphone"
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/tv_helper_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nomor hp tidak boleh kosong"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_simpan_nama"
+        android:text="Simpan Nama dan No.HP"
+        android:textColor="@color/grey_hard" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/btn_batal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BATAL"
+            android:layout_marginRight="50dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_dark"/>
+
+        <TextView
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_dark"/>
+    </LinearLayout>
+</LinearLayout>
